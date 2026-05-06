@@ -14,9 +14,13 @@ venv/
 env/
 
 ### Data & outputs (large files)
-data/
-outputs/
+data/**
+outputs/**
 wandb/
+!data/*.py
+!data/__init__.py
+!outputs/.gitkeep
+!data/.gitkeep
 
 ### Jupyter
 .ipynb_checkpoints/
